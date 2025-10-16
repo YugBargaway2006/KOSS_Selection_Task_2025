@@ -103,3 +103,9 @@ int binexp(int base, int power, int mod) {
 int modInverse(int a, int mod) {
     return binexp(a, mod-2, mod);
 }
+
+
+// std::sort(data.begin(), data.end(), 
+//               [column_to_sort](const std::vector<int>& a, const std::vector<int>& b) {
+//                   return a[column_to_sort] < b[column_to_sort];
+//               });
